@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\Condominio\Condominio\bin\Debug\Condominio.exe.config
+C:\Users\ASUS\source\repos\Condominio\Condominio\bin\Debug\Condominio.exe
+C:\Users\ASUS\source\repos\Condominio\Condominio\bin\Debug\Condominio.pdb
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.Properties.Resources.resources
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.exe
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.pdb
+C:\Users\ASUS\source\repos\Condominio\Condominio\bin\Debug\Libreria.dll
+C:\Users\ASUS\source\repos\Condominio\Condominio\bin\Debug\Libreria.pdb
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.csproj.CopyComplete
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.Login.resources
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.VentanaAdmin.resources
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.VentanaUser.resources
+C:\Users\ASUS\source\repos\Condominio\Condominio\obj\Debug\Condominio.DatosUsuario.resources
