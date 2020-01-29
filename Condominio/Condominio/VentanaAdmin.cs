@@ -23,10 +23,19 @@ namespace Condominio
             Application.Exit();
         }
 
+
+        private void VentanaAdmin_Load(object sender, EventArgs e)
+        {
+             
+        }
+
         private void btnDatosUsuario_Click(object sender, EventArgs e)
         {
-            DatosUsuario datoUsuario = new DatosUsuario();
-            datoUsuario.Show();
+            /*  DatosUsuario datosUsuario = new DatosUsuario();
+              this.Hide();
+              datosUsuario.Show();*/
+            AbrirFormulario<DatosUsuario>();
+            pictureBox1.Hide();
         }
 
         private void panelMenu_Paint(object sender, PaintEventArgs e)
@@ -34,13 +43,28 @@ namespace Condominio
 
         }
 
-        private void VentanaAdmin_Load(object sender, EventArgs e)
+
+        private void AbrirFormulario<T>() where T : Form, new()
         {
-            string cmd = "SELECT * FROM usuario WHERE idUsuario=" + Login.codigo; //hace una consulta para devolver datos de la persona que inicio sesión
-
-            DataSet DS = Utilidades.Ejecutar(cmd);
-
-
+            Form formulario = panelContenedor.Controls.OfType<T>().FirstOrDefault();
+            if (formulario != null)
+            {
+                //Si la instancia esta minimizada la dejamos en su estado normal
+                if (formulario.WindowState == FormWindowState.Minimized)
+                {
+                    formulario.WindowState = FormWindowState.Normal;
+                }
+                //Si la instancia existe la pongo en primer plano
+                formulario.BringToFront();
+                return;
+            }
+            //Se abre el form
+            formulario = new T();
+            formulario.TopLevel = false;
+            panelContenedor.Controls.Add(formulario);
+            panelContenedor.Tag = formulario;
+            formulario.Show();
         }
+
     }
 }
