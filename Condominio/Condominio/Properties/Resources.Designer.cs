@@ -83,6 +83,16 @@ namespace Condominio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap condominios {
+            get {
+                object obj = ResourceManager.GetObject("condominios", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icone_condominio {
             get {
                 object obj = ResourceManager.GetObject("icone-condominio", resourceCulture);

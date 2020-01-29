@@ -21,5 +21,10 @@ namespace Condominio
         {
             Application.Exit();
         }
+
+        private void btnModificarVUser_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
